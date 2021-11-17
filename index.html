@@ -1,100 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Hekto</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <style>
-        .carousel-control-prev-icon, .carousel-control-next-icon {
-            height: 100px;
-            width: 100px;
-            background-image: none;
-        }
-        .carousel-control-next-icon:after {
-            content: '>';
-            font-size: 40px;
-            color: #4f00b6;
-        }
-        .carousel-control-prev-icon:after {
-            content: '<';
-            font-size: 40px;
-            color: #4f00b6;
-        }
-        .carousel .carousel-indicators li {
-            width: 10px;
-            height: 10px;
-            border-radius: 100%;
-            background-color: #4f00b6;
-        }
-        .carousel .carousel-indicators li.active {
-            background-color: #7E33E0;
-        }
-    </style>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&display=swap');
-
-        body {
-            font-family: 'Josefin Sans', sans-serif;
-        }
-
-        .vertical-center {
-            margin: 0;
-            position: absolute;
-            top: 70%;
-            left: 50%;
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-        }
-
-        .search {
-            padding: 4px 15px;
-            background: #ffffff;
-            border: 1px solid #dbdbdb;
-        }
-
-        .button {
-            position: relative;
-            padding: 2px 25px;
-            left: -8px;
-            border: 3px solid #FB2E86;
-            background-color: #FB2E86;
-            color: #fafafa;
-        }
-
-        .button:hover {
-            background-color: #ffffff;
-            color: #000000;
-        }
-
-        #topNavbar {
-            padding: 1.5px;
-        }
-
-        .jumbotron {
-            padding: 40px;
-        }
-
-        #loginnn {
-            margin: 5px auto;
-            width: 400px;
-            height: 350px;
-            border-radius: 1px;
-            box-shadow: 0px 0px 10px 1px #c5c0c035;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-     <!--first top navigation bar-->
-     <nav class="navbar navbar-expand-lg navbar-light" id="topNavbar" style="background-color: #7E33E0;">
+    <!--first top navigation bar-->
+    <nav class="navbar navbar-expand-lg navbar-light" id="topNavbar" style="background-color: #7E33E0;">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -186,6 +106,100 @@
         </div>
     </nav>
 
-    
+    <!--banner image-->
+    <img class="d-block w-100" src="banner.png">
+
+    </br>
+
+    <!--featured products-->
+    <h1 class="h1 mt-5 text-center"><b>Featured Products</b></h1>
+
+    <div class="headline">
+        <div class="list-produk">
+            <img src="image/green.webp" alt="Green Chair">
+            <h4>Green Chair</h4>
+            <h5>£ 150,00</h5>
+            <a class="tombol tombol-detail" href="#">Detail</a>
+            <a class="tombol tombol-beli" href="#">Beli</a>
+        </div>
+
+        <div class="list-produk">
+            <img src="image/grey.jpg" alt="Grey Chair">
+            <h4>Grey Chair</h4>
+            <h5>£ 200,00</h5>
+            <a class="tombol tombol-detail" href="#">Detail</a>
+            <a class="tombol tombol-beli" href="#">Beli</a>
+        </div>
+
+        <div class="list-produk">
+            <img src="image/blue.jpg" alt="Blue Chair">
+            <h4>Blue Chair</h4>
+            <h5>£ 250,00</h5>
+            <a class="tombol tombol-detail" href="#">Detail</a>
+            <a class="tombol tombol-beli" href="#">Beli</a>
+        </div>
+
+        <div class="list-produk">
+            <img src="image/greyy.jpg" alt="Grey Chair">
+            <h4>Grey Chair</h4>
+            <h5>£ 300,00</h5>
+            <a class="tombol tombol-detail" href="#">Detail</a>
+            <a class="tombol tombol-beli" href="#">Beli</a>
+        </div>
+
+        <div class="list-produk">
+            <img src="image/red.jpg" alt="Red Chair">
+            <h4>Red Chair</h4>
+            <h5>£ 350,00</h5>
+            <a class="tombol tombol-detail" href="#">Detail</a>
+            <a class="tombol tombol-beli" href="#">Beli</a>
+        </div>
+    </div>
+
+    <!--latest products-->
+    <h1 class="h1 mt-5 text-center"><b>Latest Products</b></h1>
+
+    <div class="headline">
+        <div class="list-produk">
+            <img src="image/gray.jpg" alt="Gray Chair">
+            <h4>Grey Chair</h4>
+            <h5>£ 150,00</h5>
+            <a class="tombol tombol-detail" href="#">Detail</a>
+            <a class="tombol tombol-beli" href="#">Beli</a>
+        </div>
+
+        <div class="list-produk">
+            <img src="image/whitee.jpg" alt="White Chair">
+            <h4>White Chair</h4>
+            <h5>£ 200,00</h5>
+            <a class="tombol tombol-detail" href="#">Detail</a>
+            <a class="tombol tombol-beli" href="#">Beli</a>
+        </div>
+
+        <div class="list-produk">
+            <img src="image/wood.jpg" alt="Wood Chair">
+            <h4>Wood Chair</h4>
+            <h5>£ 250,00</h5>
+            <a class="tombol tombol-detail" href="#">Detail</a>
+            <a class="tombol tombol-beli" href="#">Beli</a>
+        </div>
+
+        <div class="list-produk">
+            <img src="image/bloe.jpg" alt="Blue Chair">
+            <h4>Blue Chair</h4>
+            <h5>£ 300,00</h5>
+            <a class="tombol tombol-detail" href="#">Detail</a>
+            <a class="tombol tombol-beli" href="#">Beli</a>
+        </div>
+
+        <div class="list-produk">
+            <img src="image/brown.jpg" alt="Brown Chair">
+            <h4>Brown Chair</h4>
+            <h5>£ 350,00</h5>
+            <a class="tombol tombol-detail" href="#">Detail</a>
+            <a class="tombol tombol-beli" href="#">Beli</a>
+        </div>
+    </div>
 </body>
+
 </html>
